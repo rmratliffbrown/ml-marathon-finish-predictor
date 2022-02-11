@@ -1,4 +1,4 @@
-# project-1
+# Marathon Finish Time Predictor
 Cloud Continuous Delivery of Microservice (MLOps or Data Engineering Focused)
 - Create a Microservice in Flask or Fast API
 - Push source code to Github
