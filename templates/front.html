@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Marathon Prediction Machine Learning App</title>
+    </head>
+    
+    <body>
+        <p style="text-align: center;"> This application can be used to make predictions about a marathon finish time. </p>
+        <p style="text-align: center;">You will first insert your miles accumulated over the last 4 weeks, then you will insert your average speed over the same 4 week period. </p>
+        <form name="form", method="POST", style="text-align: center;">
+            <br>
+            Miles: <input type="number" name="miles", placeholder="Enter miles" required/>
+            <br><br>
+            Speed: <input type="number" name="speed", placeholder="Enter average speed" required/>
+            <br><br>
+            <button value="Submit">Run</button>
+        </form>
+        <p style="text-align: center;">{{ output }}</p>
+    </body>
+</html>
