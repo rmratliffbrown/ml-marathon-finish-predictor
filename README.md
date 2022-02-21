@@ -1,4 +1,4 @@
-[![CI/CD](https://github.com/rmratliffbrown/ml-marathon-finish-predictor/actions/workflows/main.yml/badge.svg)](https://github.com/rmratliffbrown/ml-marathon-finish-predictor/actions/workflows/main.yml)
+[![CI-CD](https://github.com/rmratliffbrown/ml-marathon-finish-predictor/actions/workflows/main.yml/badge.svg)](https://github.com/rmratliffbrown/ml-marathon-finish-predictor/actions/workflows/main.yml)
 
 # Marathon Finish Predictor
 
