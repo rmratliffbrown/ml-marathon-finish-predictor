@@ -1,6 +1,6 @@
-# Marathon Finish Predictor
+[![CI/CD](https://github.com/rmratliffbrown/ml-marathon-finish-predictor/actions/workflows/main.yml/badge.svg)](https://github.com/rmratliffbrown/ml-marathon-finish-predictor/actions/workflows/main.yml)
 
-[![CI](https://github.com/rmratliffbrown/ml-marathon-finish-predictor/actions/workflows/main.yml/badge.svg)](https://github.com/rmratliffbrown/ml-marathon-finish-predictor/actions/workflows/main.yml)
+# Marathon Finish Predictor
 
 Cloud Continuous Delivery of Microservice (MLOps or Data Engineering Focused)
 - Create a Microservice in Flask or Fast API
