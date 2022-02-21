@@ -3,9 +3,5 @@
 # Marathon Finish Predictor
 
 Cloud Continuous Delivery of Microservice (MLOps or Data Engineering Focused)
-- Create a Microservice in Flask or Fast API
-- Push source code to Github
-- Configure Build System to Deploy changes
-- Use IaC (Infrastructure as Code) to deploy code
-- Use either AWS, Azure, GCP (recommended services include Google App Engine, AWS App Runner or Azure App Services)
-+ Containerization is optional, but recommended
+
+The Marathon Finish Predictor is a Machine Learning Microservice built using Flask, Infrastructure as Code, and Cloud Continuous Delivery. You simply input both an average pace(in miles) and average speed over the last 4 weeks. The application returns a Marathon Finish Prediction based on the inputs. 
