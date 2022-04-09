@@ -1,5 +1,5 @@
 [![CI](https://github.com/rmratliffbrown/ml-marathon-finish-predictor/actions/workflows/main.yml/badge.svg)](https://github.com/rmratliffbrown/ml-marathon-finish-predictor/actions/workflows/main.yml)
 
-# Marathon Finish Predictor
+# Marathon Finish Time Predictor
 
-Marathon Finish Predictor is a Machine Learning Microservice built using Flask, Infrastructure as Code, and Cloud Continuous Delivery. You simply input both an average pace(in miles) and average speed over the last 4 weeks. The application returns a Marathon Finish Prediction based on a Linear Regression Machine Learning model and the users inputs. 
+Marathon Finish Predictor is a Machine Learning Microservice built using Flask, Infrastructure as Code, and Cloud Continuous Delivery. 
