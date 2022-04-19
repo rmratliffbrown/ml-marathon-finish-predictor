@@ -2,4 +2,4 @@
 
 # Marathon Finish Time Predictor
 
-Marathon Finish Predictor is a Machine Learning Microservice built using Flask, Infrastructure as Code, and Cloud Continuous Delivery. 
+Marathon Finish Predictor is a Machine Learning Microservice built using Flask, Docker, and Cloud Continuous Delivery on AWS App Runner.
