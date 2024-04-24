@@ -6,15 +6,18 @@
     
     <body>
         <p style="text-align: center;"> This application makes predictions about a marathon finish time. </p>
-        <p style="text-align: center;">You first insert your mileage accumulated over the last 4 weeks, then you will insert your average speed over the same 4 week period. </p>
+        <p style="text-align: center;">First insert your mileage accumulated over the last 4 weeks (in kilometers), then insert your average speed over the same 4 week period. </p>
         <form name="form", method="POST", style="text-align: center;">
             <br>
-            Miles: <input type="number" name="miles", placeholder="Enter miles" required/>
+            Mileage: <input type="text" name="km4week", placeholder="Enter miles" required/>
             <br><br>
-            Speed: <input type="number" name="speed", placeholder="Enter average speed" required/>
+            Speed: <input type="text" name="speed4week", placeholder="Enter average speed" required/>
             <br><br>
-            <button value="Submit">Run</button>
+            Crosstrain: <input type="text" name="xtrain" placeholder="Cross Training (0 or 1)" required="required" />
+            <br><br>
+            <button value="Submit">Predict</button>
         </form>
         <p style="text-align: center;">{{ output }}</p>
     </body>
 </html>
+
