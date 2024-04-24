@@ -12,7 +12,7 @@ logging.basicConfig(level=logging.INFO)
 # Load your trained model and preprocessor
 # Make sure to update the paths to where your model and preprocessor are stored
 model = joblib.load('regression.pkl')
-preprocessor = joblib.load('path_to_preprocessor/preprocessor.joblib')
+preprocessor = joblib.load('preprocessor.pkl')
 
 @app.route('/', methods=['GET', 'POST'])
 def main():
