@@ -39,8 +39,9 @@ X_train, X_test, y_train, y_test = train_test_split(X_transformed, y, test_size=
 model = LinearRegression()
 model.fit(X_train, y_train)
 
-# Package model 
+# Package the model and the preprocess using Joblib
 joblib.dump(model, "regression.pkl")
+joblib.dump(preprocessor, "preprocessor.pkl")
 
 # Predict on the testing set
 #y_pred = model.predict(X_test)
